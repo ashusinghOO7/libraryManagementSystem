@@ -1,5 +1,7 @@
 package com.example.libraryManagementSystem.Model;
 
-public class TransactionStatus {
-
+public enum TransactionStatus {
+	SUCCESSFUL,
+	PENDING,
+	FAILED
 }
